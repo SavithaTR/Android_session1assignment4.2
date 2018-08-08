@@ -1,0 +1,8 @@
+# creation of vector of string
+x <- c('data.science.in.R', 'machine.learning.in.R')
+
+# appending "-" at the start of each element of vector
+y <- paste('-',x, sep = "")
+
+#concatenate all the element of vector into a single string
+z <- paste(y, collapse = "")
